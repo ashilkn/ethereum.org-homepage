@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a clone of ethereum.org.">
+    <title>Ethereum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light py-3 px-4" style="background-color: rgb(35,34,35);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/eth-home-icon.png" alt="home icon" width="21" height="34">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" style="color: rgb(230,230,230);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Use Ethereum
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Ethereum Wallets</a></li>
+                  <li><a class="dropdown-item" href="#">Get Ethereum</a></li>
+                  <li><a class="dropdown-item" href="#">Decentralized applications (dapps)</a></li>
+                  <li><a class="dropdown-item" href="#">Stablecoins</a></li>
+                  <li><a class="dropdown-item" href="#">Stake ETH</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" style="color: rgb(230,230,230);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Learn
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" style="color: rgb(230,230,230);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Developers
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3" href="#" style="color: rgb(230,230,230);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Enterprise
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle me-3 navbarDropdown" href="#" style="color: rgb(230,230,230);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Community
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" style="background-color: rgb(77,77,76);" type="search" placeholder="Search" aria-label="Search">
+              
+               <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" style="color: white; cursor: pointer;" id="themeChange" width="16" height="16" fill="currentColor" class="bi bi-square-half" viewBox="0 0 16 16">
+              <path d="M8 15V1h6a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H8zm6 1a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12z"/>
+            </svg> -->
+          </div>
+        </div>
+    </nav>
+
+      <div class="hero-img">
+          <img class="img-fluid" src="images/hero.png" alt="hero">
+      </div>
+
+      <div class="other-lag-text pt-5">
+        イーサリアム
+      </div>
+
+      <div class="welcome container-fluid pt-3 mb-4">
+          <h1>Welcome to Ethereum</h1>
+          <p class="py-2">Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.</p>
+          <button type="button" class="btn btn-outline-light">Explore Ethereum</button>
+      </div>
+
+      <div class="container-fluid py-5" style="background-color: rgb(39,38,39);">
+        <div class="row mx-0 text-box-first-div">
+          <div class="col-md-6 col-12 d-flex align-items-center" style="color: white;">
+            <img class="img-fluid" src="images/hackathon_transparent.png" alt="img">
+          </div>
+          <div class="col-md-6 col-12 text-box btn-group-vertical" style="color: white;">
+            <h2 class="mb-4">Get started</h2>
+            <p class="general-text">ethereum.org is your portal into the world of Ethereum. The tech is new and ever-evolving – it helps to have a guide. Here's what we recommend you do if you want to dive in.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" style="background-color: rgb(39,38,39); padding-bottom: 4rem;">
+        <div class="row py-3 d-flex justify-content-evenly">
+          <div class="col-lg-6 col-12 zoom">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/wallet-cropped.png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Pick a wallet</h5>
+                <p class="card-text card-text-cls">A wallet lets you connect to Ethereum and manage your funds.</p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 zoom">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/eth.png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Get Eth</h5>
+                <p class="card-text card-text-cls">ETH is the currency of Ethereum - you can use it in applications</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row py-3 d-flex justify-content-evenly">
+          <div class="col-lg-6 col-12 zoom">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/doge-computer.png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Use a dapp</h5>
+                <p class="card-text card-text-cls">Dapps are applications powered by Ethereum. See what you can do</p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 zoom">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/developers-eth-blocks.png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Start building</h5>
+                <p class="card-text card-text-cls">If you want to start coding with Ethereum, we have documentation, tutorials. and more in our developer portal</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid py-5 border-top-box" style="background-color: rgb(40,50,50);">
+        <div class="row mx-0">
+          <div class="col-lg-6 col-12 d-flex align-items-center" style="color: white;">
+            <img class="img-fluid" src="images/what-is-ethereum.png" alt="img">
+          </div>
+          <div class="col-lg-6 col-12 text-box btn-group-vertical" style="color: white;">
+            <h2 class="mb-3">What is Ethereum?</h2>
+            <p class="general-text">Ethereum is a technology that's home to digital money, global payments, and applications. The community has built a booming digital economy, bold new ways for creators to earn online, and so much more. It's open to everyone, wherever you are in the world – all you need is the internet.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-primary orange-button" type="button">What is Ethereum?</button>
+              <button class="btn btn-primary transparent-button" type="button">More on digital money</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-5 border-top-box" style="background-color: rgb(50,40,32);">
+        <div class="row mx-0 text-box-main-div">
+          <div class="col-lg-6 col-12 d-flex align-items-center" style="color: white;">
+            <img class="img-fluid" src="images/impact_transparent.png" alt="img">
+          </div>
+          <div class="col-lg-6 col-12 text-box btn-group-vertical" style="color: white;">
+            <h2 class="mb-3">A fairer financial system</h2>
+            <p class="general-text">Today, billions of people can’t open bank accounts, others have their payments blocked. Ethereum's decentralized finance (DeFi) system never sleeps or discriminates. With just an internet connection, you can send, receive, borrow, earn interest, and even stream funds anywhere in the world.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-primary orange-button" type="button">Explore DeFi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid border-top-box pt-0" style="background-color: rgb(45,51,50);">
+        <div class="row mx-0">
+          <div class="col-lg-6 col-12 d-flex align-items-center" style="color: white;">
+            <img class="img-fluid" src="images/infrastructure_transparent.png" alt="img">
+          </div>
+          <div class="col-lg-6 col-12 text-box btn-group-vertical" style="color: white;">
+            <h2 class="mb-3">The internet of assets</h2>
+            <p class="general-text">Ethereum isn't just for digital money. Anything you can own can be represented, traded and put to use as non-fungible tokens (NFTs). You can tokenise your art and get royalties automatically every time it's re-sold. Or use a token for something you own to take out a loan. The possibilities are growing all the time.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-primary orange-button" type="button">More on NFTs</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid py-5 border-top-box" style="background-color: rgb(51,33,38);">
+        <div class="row mx-0 text-box-main-div">
+          <div class="col-lg-6 col-12 d-flex align-items-center" style="color: white;">
+            <img class="img-fluid" src="images/future_transparent.png" alt="img">
+          </div>
+          <div class="col-lg-6 col-12 text-box btn-group-vertical" style="color: white;">
+            <h2 class="mb-3">An open internet</h2>
+            <p class="general-text">Today, we gain access to 'free' internet services by giving up control of our personal data. Ethereum services are open by default – you just need a wallet. These are free and easy to set up, controlled by you, and work without any personal info.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-primary orange-button" type="button">Explore the open internet</button>
+              <button class="btn btn-primary transparent-button" type="button">More on wallets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid code-samples-container" style="background-color: rgb(33,32,48); padding-bottom: 10%;">
+        <div class="row mx-0 text-box-main-div">
+          <div class="col-lg-6 col-12 text-box btn-group-vertical" style="color: white;">
+            <h2 class="mb-3">A new frontier for development</h2>
+            <p class="general-text">Ethereum and its apps are transparent and open source. You can fork code and re-use functionality others have already built. If you don't want to learn a new language you can just interact with open-sourced code using JavaScript and other existing languages.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-primary orange-button" type="button">Developer portal</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 code-examples-main">
+            <div class="code-examples d-flex justify-content-between py-3 px-2">
+              <img src="images/color-dots-osx.png" style="width: 4rem;" alt="img">
+              <h6 style="color: rgb(243,243,242); margin: 0;">Code examples</h6>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-code code-icon" viewBox="0 0 16 16">
+                <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+              </svg>
+            </div>
+            <div class="code-examples-examples-main">
+              <div class="code-examples-examples p-3">
+                <h6>Your own bank</h6>
+                <p>You can build a ban run by logic you've programmed.</p>
+              </div>
+            </div>
+            <div class="code-examples-examples-main">
+              <div class="code-examples-examples p-3">
+                <h6>Your own bank</h6>
+                <p>You can build a ban run by logic you've programmed.</p>
+              </div>
+            </div>
+            <div class="code-examples-examples-main">
+              <div class="code-examples-examples p-3">
+                <h6>Your own bank</h6>
+                <p>You can build a ban run by logic you've programmed.</p>
+              </div>
+            </div>
+            <div class="code-examples-examples-main">
+              <div class="code-examples-examples p-3">
+                <h6>Your own bank</h6>
+                <p>You can build a ban run by logic you've programmed.</p>
+              </div>
+            </div>
+            <div class="code-examples-examples-main">
+              <div class="code-examples-examples p-3">
+                <h6>Your own bank</h6>
+                <p>You can build a ban run by logic you've programmed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid px-5 border-top-box stats-container" style="background-color: rgb(38,39,39);">
+        <div class="py-5">
+          <h2 style="color: rgb(243,243,242); padding: 1% 0;">Ethereum today</h2>
+          <p style="color: rgb(232,233,233); font-size: 1.2rem; padding: 1% 0;">The latest network statistics</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-12 eth-stat-container">
+            <p class="eth-stat-title">ETH price (USD)</p>
+            <p class="eth-stat-subtitle">The latest price for 1 ether. You can buy as little as 0.000000000000000001 – you don't need to buy 1 whole ETH.</p>
+            <h1 class="eth-stat-number">$4,219 </h1>
+            <div class="float-end py-3">
+              <button class="btn btn-primary stat-button" type="button">30d</button>
+              <button class="btn btn-primary stat-button" type="button">90d</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 eth-stat-container">
+            <p class="eth-stat-title">TRANSACTIONS TODAY</p>
+            <p class="eth-stat-subtitle">The number of transactions successfully processed on the network in the last 24 hours.</p>
+            <h1 class="eth-stat-number">1.299M</h1>
+            <div class="float-end py-3">
+              <button class="btn btn-primary stat-button" type="button">30d</button>
+              <button class="btn btn-primary stat-button" type="button">90d</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-12 eth-stat-container">
+            <p class="eth-stat-title">VALUE LOCKED IN DEFI (USD)</p>
+            <p class="eth-stat-subtitle">The amount of money in decentralized finance (DeFi) applications, the Ethereum digital economy.</p>
+            <h1 class="eth-stat-number">$105.6B</h1>
+            <div class="float-end py-3">
+              <button class="btn btn-primary stat-button" type="button">30d</button>
+              <button class="btn btn-primary stat-button" type="button">90d</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 eth-stat-container">
+            <p class="eth-stat-title">NODES</p>
+            <p class="eth-stat-subtitle">Ethereum is run by thousands of volunteers around the globe, known as nodes.</p>
+            <h1 class="eth-stat-number">2,791 </h1>
+            <div class="float-end py-3">
+              <button class="btn btn-primary stat-button" type="button">30d</button>
+              <button class="btn btn-primary stat-button" type="button">90d</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <h2>Explore ethereum.org</h2>
+        </div>
+          
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-12 explore-eth-boxes">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/merge.png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Upgrade your eth2 knowledge</h5>
+                <p class="card-text card-text-cls">A wallet lets you connect to Ethereum and manage your funds.</p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-12 explore-eth-boxes">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/infrastructure_transparent (1).png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Pick a wallet</h5>
+                <p class="card-text card-text-cls">A wallet lets you connect to Ethereum and manage your funds.</p>  
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-12 explore-eth-boxes">
+            <div class="card" style="height: 25rem; background: rgb(35,34,35);">
+              <img src="images/enterprise-eth.png" class="card-img-top img-fluid card-img-cls" alt="img">
+              <div class="card-body card-body-cls">
+                <h5 class="card-title card-title-cls mt-2 mb-3">Pick a wallet</h5>
+                <p class="card-text card-text-cls">A wallet lets you connect to Ethereum and manage your funds.</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid contribute-to-eth">
+        <div class="row text-box-first-div contribute-to-eth-row align-content-center">
+          <div class="col-lg-6 col-12 d-flex align-items-center justify-content-around image-cont-eth" style="color: white;">
+            <img class="img-fluid h-75" src="images/finance_transparent.png" alt="img">
+          </div>
+          <div class="col-lg-6 col-12 text-box btn-group-vertical contribute-to-eth-text" style="color: white;">
+            <h2 class="mb-4">Contribute to ethereum.org</h2>
+            <p class="general-text">This website is open source with hundreds of community contributors. You can propose edits to any of the content on this site, suggest awesome new features, or help us squash bugs.</p>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn btn-primary orange-button" type="button">More on contributing</button>
+              <button 
+                  class="btn btn-primary transparent-button" 
+                  type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" style="padding-bottom: 4px;">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                  <span>GitHub</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid px-4 footer-container">
+        <div class="row" style="color: rgb(179,179,178);">
+          <div class="col-sm-6 col-12">
+            <p style="font-size: .9em;">Website last updated: October 25, 2021</p>
+          </div>
+          <div class="col-sm-6 col-12">
+            <div class="float-end" id="float-right-socials">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="29" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" style="padding-left: 5px;">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16" style="padding-top: 3px;">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="40" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16" style="padding-left: 5px;">
+                <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" id="back-to-top" aria-label="go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+          
+          <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894l6-3z"/>
+        </svg></a>
+        <div class="row">
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12 py-4" style="box-sizing: inherit;">
+            <h3 class="footer-title">Use Ethereum</h3>
+            <ul class="p-0 m-0 footer-subtitle">
+              <li>Ethereum Wallets</li>
+              <li>Get ETH</li>
+              <li>Decentralized application (dapps)</li>
+              <li>Stablecoins</li>
+              <li>Stake ETH</li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12 py-4">
+            <h3 class="footer-title">Learn</h3>
+            <ul class="p-0 m-0 footer-subtitle">
+              <li>What is Ethereum?</li>
+              <li>What is Eether (ETH)?</li>
+              <li>Community guides and resources</li>
+              <li>History of Ethereum</li>
+              <li>Ethereum Whitepaper</li>
+              <li>Ethereum 2.0</li>
+              <li>Ethereum security and scam prevention</li>
+              <li>Ethereum Glosarry</li>
+              <li>Ethereum goverenance</li>
+              <li>Ethereum Improvement Proposals</li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12 py-4">
+            <h3 class="footer-title">Developers</h3>
+            <ul class="p-0 m-0 footer-subtitle">
+              <li>Get started</li>
+              <li>Documentations</li>
+              <li>Tutorials</li>
+              <li>Learn by coding</li>
+              <li>Set up a local environment</li>
+              <li>Developer resources</li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12 py-4">
+            <h3 class="footer-title">Ecosystem</h3>
+            <ul class="p-0 m-0 footer-subtitle">
+              <li>Ethereum Community</li>
+              <li>Ethereum Foundation</li>
+              <li>Ethereum Foundation Blog</li>
+              <li>Ecosystem Support Program</li>
+              <li>Ecosystem Grant Programs</li>
+              <li>Ethereum Brand Assets</li>
+              <li>Devcon</li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12 py-4">
+            <h3 class="footer-title">Enterprise</h3>
+            <ul class="p-0 m-0 footer-subtitle">
+              <li>Mainnet Ethereum</li>
+              <li>Private Ethereum</li>
+              <li>Enterprise</li>
+            </ul>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-md-6 col-12 py-4">
+            <h3 class="footer-title">About ethereum.org</h3>
+            <ul class="p-0 m-0 footer-subtitle">
+              <li>About us</li>
+              <li>Jobs</li>
+              <li>Contributing</li>
+              <li>Language Support</li>
+              <li>Privacy policy</li>
+              <li>Terms of Use</li>
+              <li>Cookie Policy</li>
+              <li>Contact</li>
+            </ul>
+          </div>        
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
